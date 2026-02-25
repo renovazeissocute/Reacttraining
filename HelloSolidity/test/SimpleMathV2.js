@@ -35,6 +35,9 @@ describe("SimpleMathV2", function () {
     it("should divide the number by another number", async() => {
          expect(await SimpleMath.divide(30, 6)).to.be.equal(5);
     });
+    it("should square a number", async() => {
+         expect(await SimpleMath.square(5)).to.be.equal(25);
+    });
 });
 
 
